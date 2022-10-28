@@ -40,12 +40,12 @@
 
 PS но все это не очень хорошие решения, в идеале нужно разделить таблицу на две. Тогда мы не нарушим нормализацию и сможем спокойно добавлять новые типы билетов без изменения таблиц.  
 
-`CREATE TABLE orders (  
-    id INT(11) NOT NULL,  
-    event_id INT(11) NOT NULL,  
-    event_date DATETIME NOT NULL,  
-    equal_price DOUBLE NOT NULL  
-)`  
+`CREATE TABLE orders (`  
+    `id INT(11) NOT NULL,`  
+    `event_id INT(11) NOT NULL,`  
+    `event_date DATETIME NOT NULL,`  
+    `equal_price DOUBLE NOT NULL`  
+`)`  
     
 `CREATE TABLE tickets (`  
     `id INT(11) NOT NULL,`  
