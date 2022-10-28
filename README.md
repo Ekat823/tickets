@@ -2,11 +2,11 @@
 
 1. Добавляем требуемые поля в таблицу, в итоге она выглядит примерно так  
 
-`CREATE TABLE orders (  
-    id INT(11) NOT NULL,  
-    event_id INT(11) NOT NULL,  
-    event_date DATETIME NOT NULL,  
-    ticket_adult_price DOUBLE NOT NULL,  
+`CREATE TABLE orders (`  
+    `id INT(11) NOT NULL,`  
+    `event_id INT(11) NOT NULL,`  
+    `event_date DATETIME NOT NULL,`  
+    `ticket_adult_price DOUBLE NOT NULL,`  
     ticket_adult_quantity INT(11) NOT NULL,  
     ticket_kid_price DOUBLE NOT NULL,  
     ticket_kid_quantity INT(11) NOT NULL,  
