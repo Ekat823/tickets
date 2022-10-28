@@ -2,6 +2,7 @@
 
 1. Добавляем требуемые поля в таблицу, в итоге она выглядит примерно так  
 
+``` sql
 `CREATE TABLE orders (`  
     `id INT(11) NOT NULL,`  
     `event_id INT(11) NOT NULL,`  
@@ -18,6 +19,7 @@
     `equal_price DOUBLE NOT NULL,`  
     `created DOUBLE NOT NULL`  
 `)`  
+```  
 
 2. Возможно добавить возможность добавлять множество баркодов, заменив столбец barcode на barcodes с типом JSON  
 
