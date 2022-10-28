@@ -1,6 +1,7 @@
 #### Билеты на событие  
 
 1. Добавляем требуемые поля в таблицу, в итоге она выглядит примерно так  
+
 CREATE TABLE orders (  
     id INT(11) NOT NULL,  
     event_id INT(11) NOT NULL,  
@@ -19,6 +20,7 @@ CREATE TABLE orders (
 )  
 
 2. Возможно добавить возможность добавлять множество баркодов, заменив столбец barcode на barcodes с типом JSON  
+
 CREATE TABLE orders (  
     id INT(11) NOT NULL,  
     event_id INT(11) NOT NULL,  
